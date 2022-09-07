@@ -1,0 +1,144 @@
+body{
+    margin:0%;
+    padding: 0%;
+
+}
+
+.top{
+    display: flex;
+    width: 100vw;
+    height: 3rem;
+    /* background-color: red; */
+    font-size: 2rem;
+    border: 2px solid black;
+    justify-content: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border: 2px solid red;
+}
+
+
+.registration{
+    height: 25vh;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.registration-top{
+    border: 2px solid black;
+    display: flex;
+    justify-content: left;
+    height:2rem ;
+    font-size: 1.7rem;
+}
+
+.registration-sub{
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.confirmation{
+    
+    justify-content: center;
+    grid-row: 2/3;
+    grid-column: 1/3;
+    height: 3rem;
+    border: 2px solid black;
+
+}
+
+.startBtn{
+    display: flex;
+    /* flex-direction: ; */
+    justify-content:end;
+}   
+
+
+
+
+
+
+
+/* -------------------------------------------------- */
+.resultScreen{
+    display: grid;
+    grid-template-columns: auto;
+    height: 25vh;
+    border : 2px solid black
+
+}
+
+.result-top{
+    border: 2px solid black;
+    display: flex;
+    justify-content: left;
+    height:2rem ;
+    font-size: 1.7rem;
+}
+.result-sub{
+    border:2px solid black;
+    
+}
+
+.mainLayer{
+    border: 2px solid green;
+    width:100vw;
+}
+
+.mainlayer-head{
+    display: flex;
+    border: 2px solid blue;
+    /* color: blue; */
+    width: 100vw;
+    height: 2rem;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    
+    font-size: 2rem;
+    
+
+}
+
+
+
+
+
+
+
+
+/* question layer  */
+
+
+li{
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.questions{
+    border: 2px solid black;
+}
+
+.ques2{
+    border: 2px solid black;
+}
+.ques3{
+    border: 2px solid black;
+}
+.ques4{
+    border: 2px solid black;
+}
+.ques0{
+    border: 2px solid black;
+}
+
+.ques1{
+    border: 2px solid black;
+}
